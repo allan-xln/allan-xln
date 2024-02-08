@@ -1,6 +1,6 @@
 <div align="center" style="display: inline-flex">
 <a href="https://github.com/allan-xln?tab=repositories">
-  <img width="420em" height="180em" src="https://github-readme-stats.vercel.app/api?username=allan-xln&show_icons=true&theme=radical&include_all_commits=true&count_private=false"/>
+  <img width="420em" height="180em" src="https://github-readme-stats.vercel.app/api?username=allan-xln&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
   <img width="410em" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=allan-xln&layout=compact&langs_count=7&theme=radical"/>
 </div>
 <div style="display: inline_block"><br>
