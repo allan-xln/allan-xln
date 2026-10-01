@@ -7,28 +7,23 @@
 </div>
 
 <div align="center">
-  <a href="https://meetallan.com"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-meetallan.com-ff4fa3?style=for-the-badge&labelColor=17101a" alt="Portfólio" /></a>
+  <a href="https://meetallan.com"><img src="https://img.shields.io/badge/PROJETOS-meetallan.com-ff4fa3?style=for-the-badge&labelColor=17101a" alt="Projetos no Meet Allan" /></a>
+  <a href="https://lanfuture.dev"><img src="https://img.shields.io/badge/EMPRESA-lanfuture.dev-ff4fa3?style=for-the-badge&labelColor=17101a" alt="LanFuture" /></a>
   <a href="https://www.linkedin.com/in/allan-da-silva-pereira-372446278/"><img src="https://img.shields.io/badge/LINKEDIN-Allan_Pereira-ff4fa3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=17101a" alt="LinkedIn" /></a>
   <a href="mailto:allansilvapereirae@gmail.com"><img src="https://img.shields.io/badge/CONTATO-E--mail-ff4fa3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=17101a" alt="E-mail" /></a>
-  <img src="https://komarev.com/ghpvc/?username=allan-xln&style=for-the-badge&color=ff4fa3&label=VISITAS" alt="Visitas ao perfil" />
 </div>
 
-## Olá, eu sou o Allan
+## Sobre mim
 
-Construo produtos com **IA, automação e software completo**, conectando aplicação, dados e infraestrutura à operação real — da ideia ao ambiente de produção.
+Atuo na interseção entre **engenharia de software, IA aplicada, automação, dados e infraestrutura**. Projeto e entrego sistemas de ponta a ponta: interfaces web e mobile, APIs, bancos relacionais, integrações corporativas, agentes de IA e fluxos resilientes para operações reais.
 
-`Engenharia de Software` · `TI corporativa` · `São José dos Pinhais, PR`
+Minha base técnica combina **TypeScript, React, Next.js, Node.js, Python, FastAPI, React Native, PostgreSQL, Supabase/RLS e PostGIS**. Na camada de IA, trabalho com LLMs, agentes, roteamento de modelos, memória contextual e voz com Whisper. Também assumo a operação em produção com Linux, Docker, Nginx, Proxmox, redes, VPNs, FortiGate e MikroTik — sempre com foco em segurança, observabilidade e rastreabilidade.
 
-## Produtos em movimento
-
-| Produto | O que resolve | Tecnologias centrais |
-| :--- | :--- | :--- |
-| **LanChat** | Atendimento contextual no WhatsApp com IA, memória, áudio, CRM e handoff. | TypeScript, React, Node.js, LLMs |
-| **Vulcan** | Métricas operacionais, gargalos e oportunidades explicáveis por IA. | Next.js, FastAPI, PostgreSQL, Go |
-| **Fazenda Garibaldi** | Coleta pluviométrica mobile, offline, geolocalizada e auditável. | React Native, Expo, Supabase, PostGIS |
-| **Ecossistema ERS** | Portais e automações para logística, balança, documentos e OCR. | Python, TypeScript, APIs, Linux |
+`Engenharia de Software` · `Sistemas de IA` · `Automação` · `Infraestrutura` · `São José dos Pinhais, PR`
 
 > 🔒 **Sobre os repositórios:** a maior parte dos projetos permanece privada por envolver sistemas reais, dados operacionais, nomes, marcas e integrações de empresas. Aqui apresento apenas o contexto técnico autorizado, preservando confidencialidade, propriedade intelectual, contratos e direitos autorais.
+
+Conheça meus projetos em **[meetallan.com](https://meetallan.com)** e a empresa em **[lanfuture.dev](https://lanfuture.dev)**.
 
 ## Stack principal
 
@@ -70,7 +65,9 @@ Construo produtos com **IA, automação e software completo**, conectando aplica
 
 <div align="center">
   <strong>Software que sai do protótipo e chega à operação.</strong><br /><br />
-  <a href="https://meetallan.com"><strong>Portfólio</strong></a>
+  <a href="https://meetallan.com"><strong>Conheça meus projetos</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://lanfuture.dev"><strong>Conheça a LanFuture</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:allansilvapereirae@gmail.com"><strong>Contato</strong></a>
   &nbsp;·&nbsp;
