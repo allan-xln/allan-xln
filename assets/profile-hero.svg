@@ -1,0 +1,59 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Allan Pereira</title>
+  <desc id="desc">Software, inteligência artificial, automação e infraestrutura</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09070D"/>
+      <stop offset="0.52" stop-color="#1C0A1B"/>
+      <stop offset="1" stop-color="#09070D"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="170" y1="55" x2="940" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2D95"/>
+      <stop offset="0.48" stop-color="#FF70B7"/>
+      <stop offset="1" stop-color="#B62078"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#FF42A1" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#FF42A1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="36"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#FF5CAD" stroke-opacity="0.07"/></pattern>
+  </defs>
+  <style>
+    .orbit { transform-origin: 930px 180px; animation: spin 18s linear infinite; }
+    .orbit-reverse { transform-origin: 930px 180px; animation: spin-reverse 13s linear infinite; }
+    .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: center; }
+    .float-one { animation: float-one 5s ease-in-out infinite; }
+    .float-two { animation: float-two 6.5s ease-in-out infinite; }
+    .line { stroke-dasharray: 8 12; animation: dash 13s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes spin-reverse { to { transform: rotate(-360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: .42; transform: scale(.94); } 50% { opacity: .92; transform: scale(1.08); } }
+    @keyframes float-one { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-11px); } }
+    @keyframes float-two { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(8px, 10px); } }
+    @keyframes dash { to { stroke-dashoffset: -240; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="930" cy="180" r="230" fill="url(#glow)" filter="url(#blur)" class="pulse"/>
+  <circle cx="104" cy="48" r="120" fill="url(#glow)" opacity="0.45" filter="url(#blur)"/>
+  <path class="line" d="M710 178C772 99 845 64 933 64C1044 64 1099 137 1187 127" stroke="url(#pink)" stroke-width="1.5" stroke-opacity="0.48"/>
+  <path class="line" d="M703 231C798 273 866 290 956 278C1054 264 1109 220 1190 230" stroke="url(#pink)" stroke-width="1.5" stroke-opacity="0.35"/>
+  <g class="orbit"><ellipse cx="930" cy="180" rx="193" ry="112" stroke="#FF58AB" stroke-opacity="0.34" stroke-width="1.5"/><circle cx="1123" cy="180" r="7" fill="#FF5CAD"/><circle cx="737" cy="180" r="4" fill="#FFB6D9"/></g>
+  <g class="orbit-reverse"><ellipse cx="930" cy="180" rx="108" ry="190" transform="rotate(57 930 180)" stroke="#FF9BCB" stroke-opacity="0.23"/><circle cx="1034" cy="22" r="5" fill="#FF8AC2"/></g>
+  <g class="float-one">
+    <rect x="858" y="108" width="144" height="144" rx="38" fill="#FF4FA3" fill-opacity="0.09" stroke="#FF76B9" stroke-opacity="0.44"/>
+    <path d="M891 198L916 171L940 190L972 151" stroke="url(#pink)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="891" cy="198" r="6" fill="#FF4FA3"/><circle cx="916" cy="171" r="6" fill="#FF6DB3"/><circle cx="940" cy="190" r="6" fill="#FF8AC2"/><circle cx="972" cy="151" r="6" fill="#FFD0E6"/>
+  </g>
+  <g class="float-two"><circle cx="1080" cy="86" r="10" fill="#FF4FA3" opacity="0.82"/><circle cx="1104" cy="109" r="4" fill="#FFD0E6"/><circle cx="793" cy="282" r="8" fill="#FF8AC2" opacity="0.72"/></g>
+  <g filter="url(#soft)" opacity="0.55"><rect x="77" y="72" width="5" height="214" rx="2.5" fill="url(#pink)"/></g>
+  <rect x="77" y="92" width="5" height="174" rx="2.5" fill="url(#pink)"/>
+  <text x="112" y="132" fill="#FF76B9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="5">HELLO, WORLD</text>
+  <text x="108" y="205" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="750" letter-spacing="-2">Allan Pereira</text>
+  <text x="112" y="250" fill="#D7C7D3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" letter-spacing="1">SOFTWARE  ·  AI  ·  AUTOMATION  ·  INFRASTRUCTURE</text>
+  <rect x="112" y="282" width="230" height="2" rx="1" fill="url(#pink)"/><circle cx="355" cy="283" r="4" fill="#FF76B9" class="pulse"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="27.25" stroke="#FF5CAD" stroke-opacity="0.24" stroke-width="1.5"/>
+</svg>
